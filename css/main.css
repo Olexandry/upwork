@@ -1,0 +1,46 @@
+body{
+	font-family: Arial ,sans-serif;
+}
+h1{
+	color: red;
+}
+h2{
+	color: white;
+}
+
+img{
+	width: 200px;
+}
+
+.text__header{
+	background: blue;
+	color: white;
+	width: 105px;
+	margin-bottom: 100px;
+	padding: 5px 5px 5px 0px;
+}
+span{
+	color: red;
+}
+.text__section{
+	background: green;
+	padding: 5px 10px;
+
+}
+.new__section{
+    background: green;
+    padding: 30px 30px 30px 50px;
+}
+.text__p{
+	padding-left: 125px;
+}
+.section__list li {
+	font-size: 30px;
+	border: 2px solid #000;
+
+}
+.footer__text{
+	background: green;
+	padding: 5px 10px;
+}
+
