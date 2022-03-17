@@ -1,0 +1,179 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	2background: #fafafa;
+	2font-size: 14px;
+	2color: #252b42;
+	2font-weight: 500;
+	font-family: Montserrat;
+}
+----------Шапка----------------------------------------------
+header{
+
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.logo {}
+.logo__img {
+ position: absolute;
+ width: 64px;
+ height: 64px;
+ left: 230px;
+ top: 26px;
+}
+.menu {
+margin: 46px 0px 0px 755px;
+
+}
+.menu__list {
+flex-wrap: wrap;
+	display: flex;
+
+
+}
+
+.menu__item {
+	margin: px 0px 0px 0px;
+}
+.menu__item :not(:last-child) {
+	margin: 0px 30px 0px 0px;
+    
+}
+
+.menu__link {
+    color: #000;
+	font-weight: 600;
+	padding: 30px;
+
+
+}
+.menu__link:hover {
+	text-decoration: underline;
+}
+-------------------------------------------------------------------
+.block {
+	display: block;
+
+}
+.container {}
+.containerlist {
+	position: absolute;
+width: 621px;
+height: 484px;
+left: 236px;
+top: 204px;
+
+background: #EDF7FF;
+box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+}
+.text {
+
+position: absolute;
+width: 417px;
+height: 153px;
+left: 79px;
+top: 118px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 145%;
+/* or 51px */
+
+
+color: #000000;
+}
+.bottoms {
+   position: absolute;
+  left: 80px;
+top: 303px;
+
+   top: 303px;
+    color: #000;
+	border: 1px solid #D34949 ;
+	border-radius: 6px;
+	padding: 14px 44px;
+	text-decoration: none;
+	transition:all 0.5s ease;
+}
+.bottoms:hover {
+	background: #D34949;
+	border: 1px solid #D34949 ;
+	color: #fff;
+}
+.containerlist1 {
+	position: absolute;
+width: 484px;
+height: 484px;
+left: 886px;
+top: 204px;
+
+background: #FF7DA4;
+box-shadow: 0px 4px 4px 1px rgba(80, 225, 164, 0.25);
+border-radius: 50px;
+display: block;
+    align-items: center;
+  
+}
+
+img{
+
+position: absolute;
+width: 362px;
+height: 362px;
+left: 61px;
+top: 49px;
+}
+.con {
+	
+position: absolute;
+width: 116px;
+height: 36px;
+left: 236px;
+top: 774px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 145%;
+}
+.te{
+	 color: #000;
+	font-weight: 600;
+}
